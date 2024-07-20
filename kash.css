@@ -6,10 +6,9 @@ background-repeat:no-repeat;
 background-size:cover;
 
 }
-marquee{color:red;
+marquee{color:blue;
 font-family:oswald-bold;
-       font-size:50px;
-       }
+font-size: 40px;}
 
 
 
