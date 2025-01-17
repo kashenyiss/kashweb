@@ -1,0 +1,35 @@
+h2{
+    margin-top:40px;
+    text-align:center;
+    
+}
+#sports{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+#container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+    margin-top:10px;
+}
+#img-container{
+    text-align:center;
+    border:1px solid #ddd;
+    border-radius:5px;
+    background: white;
+    width:90%;
+}
+#img-container img{
+    width:100px;
+    height:100px;
+}
+#img-container #description{
+    color:white;
+    background: rgba(0,0,255,0.4);
+}
+#eqip{
+    width:100%;
+}

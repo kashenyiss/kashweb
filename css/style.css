@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+    
+}
+body{background: ;
+background: rgba(0,0,0,0.2);
+    
+}
+header{
+    top:0;
+    left:0;
+    z-index:10000;
+    width:100%;
+    margin:0;
+    background: white;
+    display:flex;
+    
+}
+.sticky{
+    position: fixed;
+    box-shadow:0 0 15px black;
+    transition:3s ease-in-out;
+}
+  .loader{
+     display: ;
+     height:100%;
+     width:100%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     position:fixed;
+     top:0;
+     left:0;
+     z-index:9999;
+   
+}
+.loader #frame{
+    width:100px;
+    height:100px;
+    border-radius:15px;
+    background:white;
+    display:flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow:0 0 30px #2a98ff;
+    
+}
+ .loader #frame .load{
+    width:50px;
+    height:50px;
+    border:5px solid blue;
+    border-top:5px solid white;
+    border-bottom:5px solid white;
+    animation:load 1s infinite;
+    border-radius:50%;
+   position: absolute;
+  
+}
+@keyframes load{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+#content{
+    display:none;
+}
+ #dev{
+    color:blue;
+    animation:fade 3s infinite;
+    background: skyblue;
+    text-shadow: 5px white;
+    transition: 3s ease-in-out;
+    text-align: center;
+    width:100%;
+}
+@keyframes fade{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+header img{
+    width:300px;
+    height:60px;
+}
+#wallpaper{
+    text-align: center;
+    background: skyblue;
+    border-radius:5px;
+}
+ #wallpaper img{
+width:360px;
+height:350px;
+z-index:1;
+opacity:1;
+padding:10px;
+}
+
+#wallpaper h1{
+    position: absolute;
+    color: tomato;
+    text-align: right;
+    f
+  
+}
+#intro{
+    
+}
+
+#acc{
+    padding-top:10px;
+    display:flex;
+    float: right;
+    display:none;
+}
+#acc button{
+    width:60px;
+    height:30px;
+    color:white;
+    border-radius:5px;
+    outline:none;
+    font-size:10px;
+    margin-top:0;
+    
+   
+}
+#acc #reg{
+    background:#4CAF50;
+}
+#acc #login{
+background:#2a98ff;
+    
+}
+
+footer{
+    width:100%;
+    height:50px;
+    padding:px;
+    text-align:center;
+    color: white;
+    background:#2a98ff;
+    
+}
+footer p{
+    padding:15px;
+}

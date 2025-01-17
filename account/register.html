@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+ <meta name="description"content="The best school, The right choice for your child">
+ <link rel="stylesheet" href="../css/style.css">
+ <link rel="stylesheet" href="../css/font.css">
+ <link rel="stylesheet" href="../css/media.css"> 
+ <link rel="stylesheet" href="../css/login.css">  
+    <title>Kashenyi Secondary School</title>
+  
+</head>
+<body>
+    <div class="loader" id="loader">
+         <div id="frame">
+        <div class="load"id="load"></div>
+        </div></div>
+         <div id="content">
+              	<div id="acc">
+    <a href="account/login.html"><button id="login">LOGIN</button></a>
+    <a href="account/register.html"><button id="reg">REGISTER</button></a>
+    <div id="profile"></div>
+</div>
+    <div class="login">
+       <img src="../img/logo/badge.jpg" alt="">
+        <h1>Register</h1><hr>
+       <div class="login-form">
+           <form id="form">
+              <div class="form-input">
+               <label>Username</label>
+               <input type="text"id="username">
+           </div>   
+           <div class="form-input">
+               <label>Email</label>
+               <input type="email"id="email">
+           </div>
+             <div class="form-input">
+               <label>Date of birth</label>
+               <input type="date"id="dob">
+           </div>
+             <div class="form-input">
+               <label>Details</label>
+               <select id="category">
+                   <option>Student</option>
+                   <option>Teacher</option>
+                   <option>Parent</option>
+                   <option>Administrator</option>
+                   <option>Other school worker</option>
+                   <option>Well-wisher</option>
+               </select>
+           </div>
+           <div class="form-input">
+               <label>Set Password</label>
+               <input type="password"id="password">
+               <i class="visible">show</i>
+           </div>
+            <div class="form-input">
+               <label>Confirm Password</label>
+               <input type="password"id="confirm">
+               <i class="visible">show</i>
+               <div id="alert"></div>
+           </div>
+           <div class="save">
+               <input type="checkbox"id="save">
+               &nbsp&nbsp&nbsp
+               <label>Agree to our terms and conditions</label>
+           </div>
+           <button onclick="reg()">Register</button>
+           </form>
+           <div class="refer">
+     <a href="login.html"><p>Already have an account?</p></a>
+           </div>
+       </div>
+       
+        </div></div>
+</body>
+<script>
+    const loader=document.getElementById('loader');
+const content=document.getElementById('content');
+window.onload = function(){ 
+  loader.style.display ='none';      
+     content.style.display = 'block';
+        }
+       
+</script>
+<script src="script/registration.js"></script>
+</html>

@@ -1,0 +1,42 @@
+#log{
+    width:90%;
+    overflow:hidden;
+    text-align:center;
+}
+.logo{
+   display:flex;
+   gap:20px;
+   flex-wrap:wrap;
+}
+figure{
+    border:1px solid #ddd;
+    border-radius:5px;
+    background: white;
+    text-align:center;
+    width:250px;
+}
+figcaption{
+    color:blue;
+    font-size:30px;
+    text-align:center;
+}
+ figure img{
+    height:200px;
+    width:200px;
+}
+@media(max-width:768px){
+    #logo{
+    width:90%;
+    overflow:hidden;
+    text-align:center;
+}
+.logo{
+   display:flex;
+   gap:20px;
+   overflow-x:scroll;
+   scroll-behaviour:smooth;
+  padding-left:40px;
+  flex-wrap:nowrap;
+}
+
+}

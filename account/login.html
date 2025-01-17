@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+ <meta name="description"content="The best school, The right choice for your child">
+ <link rel="stylesheet" href="../css/style.css">
+ <link rel="stylesheet" href="../css/font.css">
+ <link rel="stylesheet" href="../css/media.css"> 
+ <link rel="stylesheet" href="../css/login.css">  
+    <title>Kashenyi Secondary School</title>
+  
+</head>
+<body>
+    <!-- loading animation -->
+    <div class="loader" id="loader">
+         <div id="frame">
+        <div class="load"id="load"></div>
+        </div></div>
+         <div id="content">
+             <!-- account switch -->
+              	<div id="acc">
+    <a href="account/login.html"><button id="login">LOGIN</button></a>
+    <a href="account/register.html"><button id="reg">REGISTER</button></a>
+    <div id="profile"></div>
+</div>
+    <div class="login">
+       <img src="../img/logo/badge.jpg" alt=""> <h1>LOGIN</h1><hr>
+       <div class="login-form"id="loginForm">
+           <form action=""method="post">
+           <div class="form-input">
+               <label>Email</label>
+               <input type="email"id="email">
+           </div>
+           <div class="form-input">
+               <label>Password</label>
+               <input type="password"id="password">
+               <i class="visible">show</i>
+           </div>
+           <div class="save">
+               <input type="checkbox"id="save">
+               <label>Remember me.</label>
+           </div>
+           <button onclick="login()">Login</button>
+           </form>
+           <div class="refer">
+        <a href="recovery.html"><p>Forgot password?</p></a>
+        <a href="register.html"><p>Don't have an account?</p></a>
+           </div>
+       </div>
+       
+        </div></div>
+</body>
+<script>
+    const loader=document.getElementById('loader');
+const content=document.getElementById('content');
+window.onload = function(){ 
+  loader.style.display ='none';      
+     content.style.display = 'block';
+        }
+</script>
+<script src="script/login.js"></script>
+</html>
+

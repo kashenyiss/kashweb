@@ -1,0 +1,40 @@
+h1{
+    text-align:center;
+    margin-top:40px;
+}
+section{text-align:center;
+width:90%;
+max-width:500px;
+border:1px solid #ddd;
+border-radius:5px;
+background: white;
+padding:10px;
+margin-bottom:10px;
+
+}
+section h2{
+    color:blue;
+}
+section p{
+    font-weight:600;
+    
+}
+section button{
+    width:70px;
+    height:30px;
+}
+#info{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+section ul{
+    list-style:none;
+}
+section ul li:nth-child(even){
+    background:rgba(0,0,0,0.2);
+}
+section ul li:nth-child(odd){
+    background:rgba(0,0,0,0.1);
+}

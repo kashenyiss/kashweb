@@ -1,0 +1,52 @@
+h2{
+    margin-top:40px;
+    font-weight:600;
+    text-align:center;
+}
+
+#calendar{
+    border:1px solid #ddd;
+    border-radius:5px;
+    width:90%;
+    background: white;
+}
+#calendar #header{
+    color:blue;
+    text-align:center;
+    width:100%;
+    font-weight:600;
+    border-bottom:2px solid skyblue;
+    padding:20px;
+}
+.page{
+    width:100%;
+    justify-content:center;
+    text-align:center;
+    display:flex;
+    align-items:center;
+}
+
+#calendar #days{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+#days div{
+    width:14.28%;
+    text-align:center;
+    border-radius:5px;
+    padding:10px;
+}
+.today{
+    background: #4CAF50;
+}
+
+#events p{
+    color:white;
+    text-align:center;
+    background: rgba(255,0,0,0.3);
+    border-radius:5px;
+    border:1px solid #ddd;
+    padding:20px;
+    
+}

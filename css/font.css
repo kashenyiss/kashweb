@@ -1,0 +1,25 @@
+@font-face{
+    font-family:'falling';
+      src:url(../fonts/falling.otf);  }
+@font-face{
+    font-family:'infinite';
+      src:url(../fonts/infinite.ttf);  }
+@font-face{
+    font-family:'robot';
+      src:url(../fonts/robot.ttf);  }   
+@font-face{
+    font-family:'casual';
+      src:url(../fonts/casual.otf);  }
+@font-face{
+    font-family:'oswald';
+      src:url(../fonts/oswald.ttf);  }      
+      
+html{font-family: falling;
+font-size:1rem;}
+
+#wallpaper h1{
+    font-size:2rem;
+    font-family: robot;
+}
+footer p{font-size:10px;
+}

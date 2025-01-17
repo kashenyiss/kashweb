@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+ <meta name="description"content="The best school, The right choice for your child">
+ <link rel="stylesheet" href="../css/style.css">
+ <link rel="stylesheet" href="../css/font.css">
+ <link rel="stylesheet" href="../css/media.css"> 
+ <link rel="stylesheet" href="../css/login.css">  
+    <title>Kashenyi Secondary School</title>
+  
+</head>
+<body>
+    <div class="loader" id="loader">
+         <div id="frame">
+        <div class="load"id="load"></div>
+        </div></div>
+         <div id="content">
+             <!-- account -->
+  	<div id="acc">
+    <a href="account/login.html"><button id="login">LOGIN</button></a>
+    <a href="account/register.html"><button id="reg">REGISTER</button></a>
+    <div id="profile"></div>
+</div>            
+             
+             
+<!--data entry--->             
+    <div class="login">
+       <img src="../img/logo/badge.jpg" alt=""> 
+       <h2>Password Recovery</h2><hr>
+       <div class="login-form">
+           <form action=""method="post">
+           <div class="form-input">
+               <label>username</label>
+               <input type="text"id="username">
+           </div>
+           <div class="form-input">
+               <label>Email</label>
+               <input type="email"id="email">
+           </div>
+           <button>continue</button>
+          </form> </div>
+          </div>
+    <!-- OTP form -->      
+    <div class="login">
+       <img src="../img/logo/badge.jpg" alt=""> 
+       <h2>Password Recovery</h2><hr>
+       <div class="login-form">
+           <form action=""method="post">
+           <div class="form-input">
+               <label>Enter OTP</label>
+               <input type="number"id="otp">
+           </div>
+           
+           <button>continue</button>
+          </form> </div></div>
+    
+    <!-- recovery form -->
+     <div class="login">
+       <img src="../img/logo/badge.jpg" alt=""> 
+       <h2>Password Recovery</h2><hr>
+       <div class="login-form">
+           <form action=""method="post">
+         <div class="form-input">
+               <label>Enter new Password</label>
+               <input type="password"id="password">
+               <i class="visible">show</i>
+           </div>
+            <div class="form-input">
+               <label>Confirm New Password</label>
+               <input type="password"id="confirm-password">
+               <i class="visible">show</i>
+           </div>
+           
+           <button>continue</button>
+          </form> </div>
+    
+            
+</body>
+<script>
+    const loader=document.getElementById('loader');
+const content=document.getElementById('content');
+window.onload = function(){ 
+  loader.style.display ='none';      
+     content.style.display = 'block';
+        }
+</script>
+<script src="script/recovery.js"></script>
+</html>

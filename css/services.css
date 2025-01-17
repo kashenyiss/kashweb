@@ -1,0 +1,44 @@
+h1{
+    text-align:center;
+    margin-top:10px;
+}
+section{text-align:center;
+width:90%;
+max-width:500px;
+border:1px solid #ddd;
+border-radius:5px;
+background: white;
+padding:10px;
+margin-bottom:10px;
+
+}
+section h2{
+    color:blue;
+}
+section p{
+    font-weight:600;
+    
+}
+section button{
+    width:70px;
+    height:30px;
+}
+#services{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+section p span{
+    background: orange;
+    color:white;
+}
+#alert{
+    background: rgba(255,0,0,0.2);
+}
+#alert h2{
+    color:red;
+}
+#alert p{
+    color:white;
+}
